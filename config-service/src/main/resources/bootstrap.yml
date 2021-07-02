@@ -7,12 +7,12 @@ spring:
       server:
         git:
           uri: https://github.com/jacobohi/microservices-practice.git
-		searchPaths: config-data
-		username: jacobohi
-		password: 271101182020+Jhidj
-		
-
+          searchPaths: config-data
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
   security:
     user:
-      name: root
-	  password: s3cr3t
+     name: root
+     password: s3cr3t
+    
+spring.cloud.config.server.git.default-label: main 
