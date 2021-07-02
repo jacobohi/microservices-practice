@@ -6,10 +6,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/jacobohi/microservicios-practice.git
-		searchPath: config-data
-		username: ${GIT_USER}
-		password: ${GIT_PASSWORD}
+          uri: https://github.com/jacobohi/microservices-practice.git
+		searchPaths: config-data
+		username: jacobohi
+		password: 271101182020+Jhidj
 		
 
   security:
